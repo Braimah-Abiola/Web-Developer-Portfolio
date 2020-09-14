@@ -2,10 +2,10 @@ const Portfolio = function() {
 	function makeWords() {
 		var words = [
 			{
-				text: "rapping",
+				text: "bootstrap",
 				weight: 12.3
 			}, {
-				text: "css3",
+				text: "css",
 				weight: 8
 			}, {
 				text: "javascript",
@@ -23,18 +23,15 @@ const Portfolio = function() {
 				text: "java",
 				weight: 9
 			}, {
-				text: "qazi",
+				text: "react.js",
 				weight: 15
-			}, {
-				text: "newText",
-				weight: 7
 			}
 		];
 		return words;
 	}
 
 	function makeWordCloud(words) {
-		$('.teaching-domains').jQCloud(words, {delay: 120});
+		$('.teaching-domains').jQCloud(words, {delay: 150});
 	}
 
 	function displayWordCloud() {
@@ -57,7 +54,7 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"am a Full-Stack Web Developer.", "love everything about code.", "also teach programming to people.", "solve problems."
+				"am a Full-Stack Web Developer.", "love everything about code.", "also teach programming on Youtube.", "solve complex problems."
 			],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
